@@ -1,5 +1,10 @@
 function App() {
-  return <>앱</>;
+  return (
+    <main>
+      <Hero />
+      <Projects />
+    </main>
+  );
 }
 
 export default App;
