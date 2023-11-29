@@ -13,13 +13,13 @@ const Projects = () => {
           return (
             <a
               key={index}
-              href={project.link}
+              href={project.url}
               target="_blank"
               rel="noreferrer"
               className="project"
             >
               <img src={project.image} alt={project.title} className="img" />
-              <h5>birthday buddy</h5>
+              <h5>{project.title}</h5>
             </a>
           );
         })}
