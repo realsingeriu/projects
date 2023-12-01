@@ -4,6 +4,7 @@ import p3 from "./assets/movie.png";
 import p4 from "./assets/task.png";
 import p5 from "./assets/tail-wind-gallery.png";
 import p6 from "./assets/card-game.png";
+import p7 from "./assets/github-finder.png";
 
 export const projects = [
   {
@@ -41,5 +42,11 @@ export const projects = [
     title: "card-game",
     url: "https://bae-magic-match-cardgame.netlify.app/",
     image: p6,
+  },
+  {
+    id: 7,
+    title: "github-finder",
+    url: "https://github-finder-bae.netlify.app/",
+    image: p7,
   },
 ];
